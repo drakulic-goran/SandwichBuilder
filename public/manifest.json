@@ -1,0 +1,15 @@
+{
+  "short_name": "Sandwich builder",
+  "name": "Sandwich builder",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "202x199",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
