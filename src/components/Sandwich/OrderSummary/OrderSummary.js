@@ -20,7 +20,7 @@ class OrderSummary extends Component {
                 <ul>
                     {ingredientSummary}
                 </ul>
-                <p><strong>Ukupno novih stranckih bodova: {this.props.price.toFixed( 2 )}</strong></p>
+                {/* <p><strong>Ukupno novih stranckih bodova: {this.props.price.toFixed( 2 )}</strong></p> */}
                 <p>Da li je završeno pravljenje sendviča za zlatno doba?</p>
                 <Button btnType="Danger" clicked={this.props.purchaseCancelled}>ODUSTANI</Button>
                 <Button btnType="Success" clicked={this.props.purchaseContinued}>NASTAVI</Button>
