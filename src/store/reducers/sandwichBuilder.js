@@ -33,7 +33,7 @@ const removeIngredient = (state, action) => {
     const updatedSt = {
         ingredients: updatedIngs,
         // totalPrice: state.totalPrice - INGREDIENT_PRICES[action.ingredientName],
-        totalPrice: state.ingredients[action.ingredientName] > 1 || ( (action.ingredientName !== "Podrigusa" && state.ingredients["Podrigusa"] > 0) || (action.ingredientName !== "Budjavi_sir" && state.ingredients["Budjavi_sir"] > 0) || (action.ingredientName !== "Crvljiva_salata" && state.ingredients["Crvljiva_salata"] > 0) || (action.ingredientName !== "Prokisla_pasteta" && state.ingredients["Prokisla_pasteta"] > 0) ) ? (state.totalPrice - Math.random() > 0.25 || Math.random() < 0.75 ? -Math.random()*10 : Math.random()*10) : 0,
+        totalPrice: state.ingredients[action.ingredientName] > 1 || ( (action.ingredientName !== "Salama" && state.ingredients["Salama"] > 0) || (action.ingredientName !== "Sir" && state.ingredients["Sir"] > 0) || (action.ingredientName !== "Salata" && state.ingredients["Salata"] > 0) || (action.ingredientName !== "Pašteta" && state.ingredients["Pašteta"] > 0) ) ? (state.totalPrice - Math.random() > 0.25 || Math.random() < 0.75 ? -Math.random()*10 : Math.random()*10) : 0,
         building: true
     }
     return updateObject( state, updatedSt );
