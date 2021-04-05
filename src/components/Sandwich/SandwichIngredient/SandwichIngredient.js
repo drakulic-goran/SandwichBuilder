@@ -14,16 +14,16 @@ class SandwichIngredient extends Component {
             case ( 'bread-top' ):
                 ingredient = <div className={classes.BreadTop}></div>;
                 break;
-            case ( 'Podrigusa' ):
+            case ( 'Salama' ):
                 ingredient = <div className={classes.Podrigusa}></div>;
                 break;
-            case ( 'Budjavi_sir' ):
+            case ( 'Sir' ):
                 ingredient = <div className={classes.Budjavi_sir}></div>;
                 break;
-            case ( 'Prokisla_pasteta' ):
+            case ( 'Pašteta' ):
                 ingredient = <div className={classes.Prokisla_pasteta}></div>;
                 break;
-            case ( 'Crvljiva_salata' ):
+            case ( 'Salata' ):
                 ingredient = <div className={classes.Crvljiva_salata}></div>;
                 break;
             default:
