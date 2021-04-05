@@ -64,13 +64,13 @@ const orders = props => {
     ));
     modalReaction = <Modal show={modalShown} modalClosed={handleModal}>
                       <p className={classes.Image}>
-                        <img src={reactions[14+Math.floor(( (totalScores/100 <= 1 && totalScores/100 >= -1) ? totalScores/100 : 1) * (reactions.length - 1) / 2)]} style={{width: "100%", height: "100%"}} alt="Reakcija lidera" />
+                        <img src={reactions[14+Math.floor(( (totalScores/100 <= 1 && totalScores/100 >= -1) ? totalScores/100 : 1) * (reactions.length - 1) / 2)]} style={{width: "100%", height: "100%"}} alt="Reakcija" />
                       </p>
                     </Modal>;
   }
 return (
   <div>
-    <p className={classes.Label}>Ukupno stranačkih bodova: <strong>{Number.parseFloat(totalScores).toFixed( 2 )}</strong></p>
+    <p className={classes.Label}>Ukupno bodova: <strong>{Number.parseFloat(totalScores).toFixed( 2 )}</strong></p>
     {orders}
     {modalReaction}
   </div>);

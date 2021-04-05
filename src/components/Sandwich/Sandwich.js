@@ -14,7 +14,7 @@ const sandwich = ( props ) => {
             return arr.concat(el)
         }, []);
     if (transformedIngredients.length === 0) {
-        transformedIngredients = <p>Počni da praviš svoj sendvič za NAPREDNU SRBIJU!</p>;
+        transformedIngredients = <p>Počni da praviš svoj sendvič!</p>;
     }
     return (
         <div className={classes.Burger}>

@@ -29,7 +29,7 @@ const order = ( props ) => {
     return (
         <div className={classes.Order}>
             <p>Sastojci: {ingredientOutput}</p>
-            <p>Broj stranačkih bodova za sendvič: <strong> {Number.parseFloat( props.price ).toFixed( 2 )}</strong></p>
+            <p>Broj bodova za sendvič: <strong> {Number.parseFloat( props.price ).toFixed( 2 )}</strong></p>
         </div>
     );
 };
