@@ -42,10 +42,10 @@ const removeIngredient = (state, action) => {
 const setIngredients = (state, action) => {
     return updateObject( state, {
         ingredients: {
-            Crvljiva_salata: action.ingredients.Crvljiva_salata,
-            Budjavi_sir: action.ingredients.Budjavi_sir,
-            Podrigusa: action.ingredients.Podrigusa,
-            Prokisla_pasteta: action.ingredients.Prokisla_pasteta,
+            Salata: action.ingredients.Salata,
+            Sir: action.ingredients.Sir,
+            Salama: action.ingredients.Salama,
+            Pašteta: action.ingredients.Pašteta,
         },
         totalPrice: 0,
         error: false,
